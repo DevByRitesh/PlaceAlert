@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Define base URL for API
 const baseURL = import.meta.env.MODE === 'production' 
-  ? 'https://your-production-api-url.com/api' 
+  ? 'https://placealert.onrender.com/api' 
   : 'http://localhost:5000/api';
 
 // Create axios instance
