@@ -1,0 +1,8 @@
+.indicator {
+  --color-bg: var(--indicator-color);
+  --color-border: var(--indicator-color);
+}
+
+.legendItem {
+  background-color: var(--legend-color);
+} 

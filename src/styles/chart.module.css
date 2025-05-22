@@ -1,0 +1,26 @@
+.indicator {
+  --color-bg: var(--indicator-color);
+  --color-border: var(--indicator-color);
+  background-color: var(--color-bg);
+  border-color: var(--color-border);
+}
+
+.indicator[data-indicator-color] {
+  --indicator-color: attr(data-indicator-color);
+}
+
+.legendItem {
+  background-color: var(--legend-color);
+}
+
+.legendItem[data-legend-color] {
+  --legend-color: attr(data-legend-color);
+}
+
+.skeletonText {
+  max-width: var(--skeleton-width);
+}
+
+.skeletonText[data-skeleton-width] {
+  --skeleton-width: attr(data-skeleton-width);
+} 

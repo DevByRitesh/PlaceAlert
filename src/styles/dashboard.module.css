@@ -1,0 +1,36 @@
+.progressBar {
+  @apply bg-primary rounded-full h-2;
+  transition: width 0.3s ease-in-out;
+}
+
+.progressBarContainer {
+  @apply w-full bg-gray-200 rounded-full h-2;
+}
+
+.progressBarInner {
+  @apply h-full rounded-full bg-primary transition-all duration-300 ease-in-out;
+}
+
+.progressBarAts {
+  composes: progressBarInner;
+}
+
+.progressBarAts[data-score] {
+  width: var(--score);
+}
+
+.progressBarTechnical {
+  composes: progressBarInner;
+}
+
+.progressBarTechnical[data-score] {
+  width: var(--score);
+}
+
+.progressBarSkills {
+  composes: progressBarInner;
+}
+
+.progressBarSkills[data-score] {
+  width: var(--score);
+} 

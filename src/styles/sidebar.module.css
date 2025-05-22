@@ -1,0 +1,27 @@
+.sidebarWrapper {
+  width: var(--sidebar-width);
+}
+
+.sidebarWrapper[data-sidebar-width] {
+  --sidebar-width: attr(data-sidebar-width);
+}
+
+.sidebarWrapper[data-sidebar-width-icon] {
+  --sidebar-width-icon: attr(data-sidebar-width-icon);
+}
+
+.sidebarMobile {
+  width: var(--sidebar-width);
+}
+
+.sidebarMobile[data-sidebar-width] {
+  --sidebar-width: attr(data-sidebar-width);
+}
+
+.sidebarContent {
+  width: var(--sidebar-width);
+}
+
+.sidebarContent[data-sidebar-width] {
+  --sidebar-width: attr(data-sidebar-width);
+} 
