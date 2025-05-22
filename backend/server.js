@@ -65,7 +65,7 @@ setInterval(() => {
 app.use(express.json());
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? 'https://your-production-domain.com' 
+    ? 'https://placealert-1.onrender.com' 
     : ['http://localhost:5173', 'http://localhost:8080']
 }));
 
