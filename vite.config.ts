@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => ({
     port: 8080,
     proxy: {
       '/uploads': {
-        target: 'http://localhost:5000',
+        target: 'https://placealert.onrender.com',
         changeOrigin: true,
       }
     }
